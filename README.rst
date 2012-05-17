@@ -17,11 +17,7 @@ With the buildout hereunder, you get
 
     [buildout]
     parts = robot
-    versions = versions
 
     [robot]
     recipe = zc.recipe.egg
     eggs = robotentrypoints
-
-    [versions]
-    robotframework = 2.7
