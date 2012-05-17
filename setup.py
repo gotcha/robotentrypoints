@@ -25,7 +25,7 @@ setup(name='robotentrypoints',
       include_package_data=True,
       zip_safe=False,
       install_requires=[
-          'robotframework',
+          'robotframework >= 2.7',
       ],
       entry_points=entry_points
       )
