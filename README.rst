@@ -21,7 +21,7 @@ With the buildout hereunder, you get
 
     [robot]
     recipe = zc.recipe.egg
-    eggs = robotsetup
+    eggs = robotentrypoints
 
     [versions]
     robotframework = 2.7
